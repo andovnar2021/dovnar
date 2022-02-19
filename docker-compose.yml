@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  server_number1:
+    build: ./server1
+    ports:
+     - 9001:80
+
+  server_number2:
+    build: ./server2
+    ports:
+     - 9002:80
+
+  server_number3:
+    build: ./server3
+    ports:
+     - 9003:80
